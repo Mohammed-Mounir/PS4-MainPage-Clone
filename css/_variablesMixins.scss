@@ -1,0 +1,100 @@
+// Variables
+
+$heading-size-4: 4vh;
+$heading-size-5: 5vh;
+$heading-size-6: 6vh;
+
+$para-size-2: 2vh;
+$para-size-3: 3vh;
+$para-size-4: 4vh;
+
+$button-size: 2.5vh;
+
+$main-text-color: #f5f5f5;
+$main-heading-color: #0072ce;
+$text-color: #1f1f1f;
+
+$btn-color-one: #2d64e6;
+$btn-text-color-one: #fff;
+
+$btn-color-two: #212429e6;
+$btn-text-two-one: #00b0ff;
+
+// Mixins
+@mixin btnOne {
+  button {
+    background-color: $btn-color-one;
+    color: $btn-text-color-one;
+    padding: 12px 16px;
+    border-radius: 50px;
+    border: none;
+    font-size: $button-size;
+    font-weight: bold;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
+
+@mixin btnTwo {
+  button {
+    background-color: $btn-color-two;
+    color: $btn-text-two-one;
+    padding: 12px 16px;
+    border-radius: 50px;
+    border: none;
+    font-size: $button-size;
+    font-weight: bold;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
+
+@mixin btnThree {
+  button {
+    background-color: $btn-text-color-one;
+    color: #000;
+    padding: 12px 16px;
+    border-radius: 50px;
+    border: none;
+    font-size: $button-size;
+    font-weight: bold;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
+
+@mixin btnFour {
+  button {
+    background-color: $main-text-color;
+    color: $btn-color-one;
+    padding: 12px 16px;
+    border-radius: 50px;
+    border: none;
+    font-size: $button-size;
+    font-weight: bold;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
+
+@mixin btnFive {
+  button {
+    background-color: #cd3d0f;
+    color: $btn-text-color-one;
+    padding: 12px 16px;
+    border-radius: 50px;
+    border: none;
+    font-size: $button-size;
+    font-weight: bold;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}

@@ -1,0 +1,1085 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.5;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+
+.col-1 {
+  width: 8.33%;
+}
+
+.col-2 {
+  width: 16.66%;
+}
+
+.col-3 {
+  width: 25%;
+}
+
+.col-4 {
+  width: 33.33%;
+}
+
+.col-5 {
+  width: 41.66%;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.col-7 {
+  width: 58.33%;
+}
+
+.col-8 {
+  width: 66.66%;
+}
+
+.col-9 {
+  width: 75%;
+}
+
+.col-10 {
+  width: 83.33%;
+}
+
+.col-11 {
+  width: 91.66%;
+}
+
+.col-12 {
+  width: 100%;
+}
+
+.sony {
+  background-color: #000;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: right;
+  font-size: 3vh;
+  font-family: "Times New Roman", Times, serif;
+}
+
+nav .dropbtn {
+  color: #838383;
+  background-color: #fff;
+  font-size: 12px;
+  border: none;
+  cursor: pointer;
+}
+
+nav .dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+nav .dropdown-content {
+  display: none;
+  right: 0;
+  background-color: #fff;
+  width: 100%;
+  height: 30vh;
+  text-align: center;
+  z-index: 2;
+  padding-top: 15px;
+}
+
+nav .dropdown-content a {
+  color: black;
+  margin-right: 50px;
+  text-decoration: none;
+}
+
+nav .dropdown-content a:hover img {
+  -webkit-box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.2);
+}
+
+nav .dropdown:hover .dropdown-content {
+  display: block;
+  position: fixed;
+  left: 0;
+}
+
+nav .dropdown:hover .dropbtn {
+  color: #0072ce;
+}
+
+nav button {
+  background-color: #000;
+  color: #fff;
+  padding: 8px 16px;
+  border-radius: 50px;
+  border: none;
+  font-size: 2.5vh;
+  font-weight: bold;
+}
+
+nav button:hover {
+  cursor: pointer;
+}
+
+.ps {
+  text-align: center;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+  z-index: 1;
+  -webkit-box-shadow: 0 4px 6px -6px #222;
+          box-shadow: 0 4px 6px -6px #222;
+}
+
+.ps ul {
+  display: inline-block;
+  list-style-type: none;
+  height: 1vh;
+}
+
+.ps ul li {
+  text-align: center;
+}
+
+.ps ul a {
+  font-weight: bold;
+  color: #1f1f1f;
+  text-decoration: none;
+}
+
+.ps ul a:hover {
+  border-bottom: 4px solid #0072ce;
+  padding-bottom: 10px;
+}
+
+.ps-header {
+  background: url("../images/banner-1.jpg") no-repeat center;
+  background-size: 130% 100%;
+  height: 110vh;
+  -webkit-box-shadow: inset 0 0 0 2000px rgba(0, 114, 206, 0.3);
+          box-shadow: inset 0 0 0 2000px rgba(0, 114, 206, 0.3);
+}
+
+.ps-header img {
+  width: 20%;
+  height: auto;
+  margin: 15% auto 2% auto;
+  display: block;
+}
+
+.ps-header h1 {
+  font-size: 4vh;
+  line-height: 1;
+  text-align: center;
+  color: #f5f5f5;
+}
+
+.ps4 .col-12 {
+  margin: 5% auto 0 auto;
+  text-align: center;
+}
+
+.ps4 .col-12 h1 {
+  color: #0072ce;
+  font-size: 6vh;
+}
+
+.ps4 .col-12 p {
+  color: #1f1f1f;
+  font-size: 3vh;
+}
+
+.ps4-slim-pro {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.ps4-slim-pro img {
+  width: 40%;
+  height: auto;
+}
+
+.ps4-slim-pro h1 {
+  color: #0072ce;
+  font-size: 4vh;
+}
+
+.ps4-slim-pro p {
+  color: #747474;
+  font-size: 3vh;
+}
+
+.bundles {
+  margin-bottom: 5%;
+  text-align: center;
+}
+
+.bundles button {
+  background-color: #2d64e6;
+  color: #fff;
+  padding: 12px 16px;
+  border-radius: 50px;
+  border: none;
+  font-size: 2.5vh;
+  font-weight: bold;
+}
+
+.bundles button:hover {
+  cursor: pointer;
+}
+
+.row-video {
+  margin-bottom: 30%;
+}
+
+.row-video #myVideo {
+  position: absolute;
+  right: 0;
+  width: 100%;
+  height: auto;
+}
+
+.row-video .container {
+  position: relative;
+  top: 220px;
+  left: 15%;
+  background: rgba(31, 31, 31, 0.6);
+  color: #f5f5f5;
+  width: 35%;
+  text-align: left;
+  padding: 20px;
+}
+
+.row-video .container h1 {
+  font-size: 5vh;
+  color: #f5f5f5;
+}
+
+.row-video .container p {
+  font-size: 3vh;
+  color: #f5f5f5;
+}
+
+.row-video .container button {
+  background-color: #2d64e6;
+  color: #fff;
+  padding: 12px 16px;
+  border-radius: 50px;
+  border: none;
+  font-size: 2.5vh;
+  font-weight: bold;
+}
+
+.row-video .container button:hover {
+  cursor: pointer;
+}
+
+.ps4-console {
+  height: 50vh;
+}
+
+.ps4-console .ps-non-stop {
+  margin-top: 5%;
+  text-align: center;
+}
+
+.ps4-console .ps-non-stop h1 {
+  color: #0072ce;
+  font-size: 6vh;
+}
+
+.ps4-console .ps-non-stop p {
+  color: #1f1f1f;
+  font-size: 3vh;
+}
+
+.more-ways {
+  height: 60vh;
+}
+
+.more-ways img {
+  float: left;
+  width: 50%;
+  height: auto;
+}
+
+.more-ways h1 {
+  font-size: 5vh;
+}
+
+.more-ways p {
+  font-size: 3vh;
+}
+
+.play-on-ps4 {
+  background: url("../images/banner-2.jpg") no-repeat center;
+  background-size: 150% 100%;
+  height: 110vh;
+}
+
+.play-on-ps4 .container {
+  position: relative;
+  top: 220px;
+  background: rgba(31, 31, 31, 0.6);
+  width: 50%;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.play-on-ps4 .container h1 {
+  font-size: 5vh;
+  color: #f5f5f5;
+}
+
+.play-on-ps4 .container p {
+  font-size: 3vh;
+  color: #f5f5f5;
+}
+
+.play-on-ps4 .container button {
+  background-color: #fff;
+  color: #000;
+  padding: 12px 16px;
+  border-radius: 50px;
+  border: none;
+  font-size: 2.5vh;
+  font-weight: bold;
+}
+
+.play-on-ps4 .container button:hover {
+  cursor: pointer;
+}
+
+.ps-hits {
+  background: url("../images/banner-3.jpg") no-repeat center;
+  background-size: 100% 100%;
+  height: 110vh;
+  text-align: center;
+}
+
+.ps-hits .col-12 {
+  margin-top: 5%;
+}
+
+.ps-hits .col-12 h1 {
+  font-size: 5vh;
+  color: #f5f5f5;
+}
+
+.ps-hits .col-12 p {
+  width: 50%;
+  margin: 3% auto;
+  font-size: 3vh;
+  color: #f5f5f5;
+}
+
+.ps-hits .col-12 img {
+  width: 80%;
+  height: auto;
+  margin: 3% auto;
+  display: block;
+}
+
+.ps-hits .col-12 button {
+  background-color: #212429e6;
+  color: #00b0ff;
+  padding: 12px 16px;
+  border-radius: 50px;
+  border: none;
+  font-size: 2.5vh;
+  font-weight: bold;
+}
+
+.ps-hits .col-12 button:hover {
+  cursor: pointer;
+}
+
+.ps-vr {
+  background: url("../images/psvr-overview-section-background.jpg") no-repeat center;
+  background-size: 100% 100%;
+  height: 140vh;
+  text-align: center;
+}
+
+.ps-vr .container {
+  background: rgba(255, 255, 255, 0.6);
+  width: 50%;
+  padding: 5px 10px;
+  margin: 5% auto 0 auto;
+}
+
+.ps-vr .container h1 {
+  font-size: 5vh;
+  color: #1f1f1f;
+}
+
+.ps-vr .container p {
+  font-size: 3vh;
+  color: #1f1f1f;
+}
+
+.ps-vr img {
+  width: 50%;
+  height: auto;
+  margin: 4% auto;
+  display: block;
+}
+
+.ps-vr button {
+  background-color: #212429e6;
+  color: #00b0ff;
+  padding: 12px 16px;
+  border-radius: 50px;
+  border: none;
+  font-size: 2.5vh;
+  font-weight: bold;
+}
+
+.ps-vr button:hover {
+  cursor: pointer;
+}
+
+.ps-plus {
+  background: url("../images/banner-4.jpg") no-repeat center;
+  background-size: 100% 100%;
+  height: 120vh;
+  -webkit-box-shadow: inset 0 0 0 2000px rgba(206, 203, 0, 0.3);
+          box-shadow: inset 0 0 0 2000px rgba(206, 203, 0, 0.3);
+}
+
+.ps-plus .container {
+  text-align: left;
+  background: rgba(31, 31, 31, 0.6);
+  width: 35%;
+  padding: 20px;
+  margin: 10% auto 0 15%;
+}
+
+.ps-plus .container h1 {
+  font-size: 4vh;
+  color: #f5f5f5;
+}
+
+.ps-plus .container p {
+  font-size: 3vh;
+  color: #f5f5f5;
+}
+
+.ps-plus img {
+  width: 50%;
+  height: auto;
+  display: block;
+}
+
+.ps-plus button {
+  background-color: #212429e6;
+  color: #00b0ff;
+  padding: 12px 16px;
+  border-radius: 50px;
+  border: none;
+  font-size: 2.5vh;
+  font-weight: bold;
+}
+
+.ps-plus button:hover {
+  cursor: pointer;
+}
+
+.ps-online {
+  background: url("../images/banner-5.jpg") no-repeat center;
+  background-size: 150% 100%;
+  height: 120vh;
+  text-align: center;
+}
+
+.ps-online .container {
+  background: rgba(31, 31, 31, 0.6);
+  width: 50%;
+  padding: 20px;
+  margin: 20% auto 0 auto;
+}
+
+.ps-online .container h1 {
+  font-size: 5vh;
+  color: #f5f5f5;
+}
+
+.ps-online .container p {
+  font-size: 3vh;
+  color: #f5f5f5;
+}
+
+.ps-online button {
+  background-color: #212429e6;
+  color: #00b0ff;
+  padding: 12px 16px;
+  border-radius: 50px;
+  border: none;
+  font-size: 2.5vh;
+  font-weight: bold;
+}
+
+.ps-online button:hover {
+  cursor: pointer;
+}
+
+.ps-control {
+  background: url("../images/banner-6.jpg") no-repeat center;
+  background-size: 100% 100%;
+  height: 130vh;
+}
+
+.ps-control .container {
+  width: 60%;
+  padding: 20px;
+  margin: 3% auto 0 auto;
+  text-align: center;
+}
+
+.ps-control .container h1 {
+  font-size: 5vh;
+  color: #0072ce;
+}
+
+.ps-control .container p {
+  font-size: 3vh;
+  color: #1f1f1f;
+  margin-bottom: 50%;
+}
+
+.ps-control .container button {
+  background-color: #2d64e6;
+  color: #fff;
+  padding: 12px 16px;
+  border-radius: 50px;
+  border: none;
+  font-size: 2.5vh;
+  font-weight: bold;
+}
+
+.ps-control .container button:hover {
+  cursor: pointer;
+}
+
+.ps-entertainment {
+  background-color: #1f1f1f;
+  color: #f5f5f5;
+  height: 80vh;
+}
+
+.ps-entertainment .container {
+  width: 70%;
+  padding: 20px;
+  margin: 2% auto 0 auto;
+  text-align: center;
+}
+
+.ps-entertainment .container h1 {
+  font-size: 6vh;
+  color: #f5f5f5;
+}
+
+.ps-entertainment .container p {
+  font-size: 4vh;
+  color: #f5f5f5;
+}
+
+.ps-entertainment .container img {
+  width: 80%;
+  height: auto;
+  display: block;
+  margin: 0 auto 5% auto;
+}
+
+.ps-entertainment .container button {
+  background-color: #212429e6;
+  color: #00b0ff;
+  padding: 12px 16px;
+  border-radius: 50px;
+  border: none;
+  font-size: 2.5vh;
+  font-weight: bold;
+}
+
+.ps-entertainment .container button:hover {
+  cursor: pointer;
+}
+
+.ps-connect {
+  height: 5vh;
+  text-align: center;
+}
+
+.ps-connect h1 {
+  font-size: 5vh;
+  color: #0072ce;
+}
+
+.ps-connect p {
+  font-size: 3vh;
+  color: #1f1f1f;
+}
+
+.ps-remote-play {
+  margin: 0 auto;
+  width: 80%;
+}
+
+.ps-remote-play h1 {
+  font-size: 5vh;
+  color: #1f1f1f;
+  text-align: left;
+}
+
+.ps-remote-play p {
+  font-size: 3vh;
+  color: #1f1f1f;
+  text-align: left;
+}
+
+.ps-remote-play button {
+  background-color: #f5f5f5;
+  color: #2d64e6;
+  padding: 12px 16px;
+  border-radius: 50px;
+  border: none;
+  font-size: 2.5vh;
+  font-weight: bold;
+}
+
+.ps-remote-play button:hover {
+  cursor: pointer;
+}
+
+.ps-remote-play img {
+  width: 90%;
+  height: auto;
+  display: block;
+}
+
+.icons {
+  text-align: center;
+}
+
+.icons img {
+  width: 40%;
+  height: auto;
+}
+
+.icons h1 {
+  font-size: 4vh;
+  color: #1f1f1f;
+}
+
+.icons p {
+  font-size: 3vh;
+  color: #1f1f1f;
+}
+
+.family {
+  background-color: #eeeeee;
+  height: 110vh;
+}
+
+.family .container {
+  width: 50%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.family .container h1:nth-of-type(1) {
+  color: #0072ce;
+}
+
+.family .container p:nth-of-type(1) {
+  color: #1f1f1f;
+}
+
+.family .container h1:nth-of-type(2) {
+  font-size: 4vh;
+}
+
+.family .container img {
+  margin-top: 5%;
+  width: 50%;
+  height: auto;
+}
+
+.family .container button {
+  background-color: #2d64e6;
+  color: #fff;
+  padding: 12px 16px;
+  border-radius: 50px;
+  border: none;
+  font-size: 2.5vh;
+  font-weight: bold;
+}
+
+.family .container button:hover {
+  cursor: pointer;
+}
+
+.ps-buy {
+  height: 80vh;
+}
+
+.ps-buy .container {
+  width: 60%;
+  margin: 20% auto 10% auto;
+}
+
+.ps-buy .container img {
+  width: 90%;
+  height: auto;
+}
+
+.ps-buy .container button {
+  background-color: #cd3d0f;
+  color: #fff;
+  padding: 12px 16px;
+  border-radius: 50px;
+  border: none;
+  font-size: 2.5vh;
+  font-weight: bold;
+}
+
+.ps-buy .container button:hover {
+  cursor: pointer;
+}
+
+.ps-policy {
+  background-color: #eeeeee;
+  color: #000;
+  height: 60vh;
+}
+
+.ps-policy .container {
+  width: 70%;
+  margin: 3% auto 0 auto;
+}
+
+.ps-policy .container ul {
+  list-style-type: none;
+}
+
+.ps-policy .container ul li {
+  font-size: 2vh;
+  padding: 1%;
+}
+
+.ps-footer {
+  background-color: #00439c;
+  color: #fff;
+  height: 100vh;
+  font-size: 2vh;
+}
+
+.ps-footer img {
+  display: block;
+}
+
+.ps-footer ul {
+  float: left;
+  list-style-type: none;
+}
+
+.ps-footer ul li {
+  padding-bottom: 10px;
+}
+
+.ps-footer ul a {
+  color: #fff;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 1200px) {
+  nav .dropdown-content a {
+    margin-right: 10px;
+  }
+  nav img {
+    width: 14%;
+    height: auto;
+  }
+  .ps-header {
+    background-size: 150% 100%;
+  }
+  .row-video .container {
+    top: 70px;
+    left: 1%;
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 1023px) {
+  nav .dropbtn {
+    padding: 10px;
+  }
+  .row-video .container {
+    top: 20px;
+    left: 1%;
+    width: 60%;
+  }
+  .more-ways {
+    height: 100vh;
+  }
+  .more-ways img {
+    width: 100%;
+  }
+  .ps-plus .container {
+    width: 50%;
+  }
+  .ps-control .container {
+    width: 80%;
+  }
+  .ps-buy .container {
+    width: 90%;
+  }
+  .ps-policy {
+    height: 55vh;
+  }
+  .ps-policy .container {
+    width: 90%;
+    margin: 10% auto 5% auto;
+  }
+  .ps-footer {
+    height: 150vh;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  [class*="col-"] {
+    width: 100%;
+  }
+  .nav-row {
+    display: none;
+  }
+  .ps .col-12 {
+    padding: 0;
+  }
+  .ps .col-12 ul {
+    padding: 0 20px 20px 0;
+  }
+  .ps-header {
+    background-size: 200% 100%;
+    height: 90vh;
+  }
+  .ps-header img {
+    margin: 30% auto 2% auto;
+  }
+  .row-video .container {
+    top: 20px;
+    left: 0%;
+    width: 60%;
+  }
+  .row-video .container h1 {
+    font-size: 3vh;
+  }
+  .row-video .container p {
+    font-size: 2vh;
+  }
+  .row-video .container button {
+    background-color: #2d64e6;
+    color: #fff;
+    padding: 12px 16px;
+    border-radius: 50px;
+    border: none;
+    font-size: 2.5vh;
+    font-weight: bold;
+  }
+  .row-video .container button:hover {
+    cursor: pointer;
+  }
+  .row-video .container button {
+    padding: 5px 7px;
+    font-size: 2.3vh;
+  }
+  .ps4-console {
+    height: 30vh;
+  }
+  .ps4-console .ps-non-stop {
+    margin-top: 0%;
+  }
+  .ps4-console .ps-non-stop h1 {
+    font-size: 4vh;
+  }
+  .ps4-console .ps-non-stop p {
+    font-size: 2.5vh;
+  }
+  .more-ways {
+    height: 100vh;
+  }
+  .more-ways img {
+    width: 100%;
+    height: auto;
+    margin: 0 auto 10% auto;
+  }
+  .more-ways h1 {
+    font-size: 5vh;
+  }
+  .more-ways p {
+    font-size: 3vh;
+  }
+  .play-on-ps4 {
+    background-size: 200% 100%;
+    height: 100vh;
+  }
+  .play-on-ps4 .container {
+    width: 80%;
+  }
+  .play-on-ps4 .container h1 {
+    font-size: 3vh;
+  }
+  .play-on-ps4 .container p {
+    font-size: 2vh;
+  }
+  .ps-hits {
+    height: 80vh;
+  }
+  .ps-hits .col-12 {
+    margin-top: 5%;
+  }
+  .ps-hits .col-12 h1 {
+    font-size: 4vh;
+  }
+  .ps-hits .col-12 p {
+    width: 90%;
+    font-size: 2vh;
+  }
+  .ps-hits .col-12 img {
+    width: 80%;
+    margin: 5% auto;
+  }
+  .ps-vr {
+    height: 90vh;
+  }
+  .ps-vr .container {
+    width: 80%;
+  }
+  .ps-vr .container h1 {
+    font-size: 4vh;
+  }
+  .ps-vr .container p {
+    font-size: 2vh;
+  }
+  .ps-plus {
+    height: 80vh;
+  }
+  .ps-plus .container {
+    width: 80%;
+    margin: 10% auto 0 auto;
+  }
+  .ps-plus .container h1 {
+    font-size: 3vh;
+  }
+  .ps-plus .container p {
+    font-size: 2vh;
+  }
+  .ps-online {
+    background-size: 140% 100%;
+    height: 80vh;
+  }
+  .ps-online .container {
+    width: 80%;
+  }
+  .ps-online .container h1 {
+    font-size: 4vh;
+  }
+  .ps-online .container p {
+    font-size: 2vh;
+  }
+  .ps-control {
+    background-size: 150% 100%;
+    height: 100vh;
+  }
+  .ps-control .container {
+    width: 90%;
+  }
+  .ps-control .container h1 {
+    font-size: 4vh;
+  }
+  .ps-control .container p {
+    font-size: 2vh;
+    margin-bottom: 50%;
+  }
+  .ps-entertainment {
+    height: 70vh;
+  }
+  .ps-entertainment .container {
+    width: 90%;
+  }
+  .ps-entertainment .container h1 {
+    font-size: 4vh;
+  }
+  .ps-entertainment .container p {
+    font-size: 2vh;
+  }
+  .ps-entertainment .container img {
+    width: 90%;
+    margin: 7% auto;
+  }
+  .ps-remote-play {
+    text-align: center;
+  }
+  .ps-remote-play h1 {
+    text-align: center;
+  }
+  .ps-remote-play p {
+    text-align: center;
+  }
+  .ps-remote-play img {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .family {
+    height: 110vh;
+  }
+  .family .container {
+    width: 80%;
+  }
+  .ps-buy {
+    height: 115vh;
+  }
+  .ps-buy .container {
+    width: 90%;
+    margin: 10% auto 5% auto;
+    text-align: center;
+  }
+  .ps-buy .container img {
+    width: 70%;
+  }
+  .ps-policy {
+    height: 55vh;
+  }
+  .ps-policy .container {
+    width: 90%;
+    margin: 5% auto 5% auto;
+  }
+  .ps-footer {
+    height: 190vh;
+  }
+  .ps-footer ul {
+    float: none;
+    border-top: 1px solid #e5e5e5;
+    padding-top: 3%;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
