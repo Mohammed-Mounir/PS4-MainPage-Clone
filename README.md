@@ -1,3 +1,3 @@
-# PS4-MainPage-Clone
+# ITI-PS4-MainPage-Clone
 
-PS4 main page clone rwd project
+ITI PS4 main page clone rwd project
