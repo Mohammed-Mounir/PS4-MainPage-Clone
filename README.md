@@ -1,3 +1,3 @@
-# ITI-PS4-MainPage-Clone
+# PS4-MainPage-Clone
 
-ITI PS4 main page clone rwd project
+Redone PS4 main page using HTML5, CSS3/SCSS, Bootstrap 5, Font Awesome & JavaScript 
